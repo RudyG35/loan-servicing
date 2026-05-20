@@ -27,15 +27,20 @@ Clone the repo, then install dependencies for the API and the frontend separatel
 
 ```bash
 git clone <repo-url>
-cd loan-servicing
+cd <project root folder>
 
-cd api && npm install
-cd ../web && npm install
+cd api 
+npm install
+
+cd ../web
+npm install
 ```
 
 ---
 
 ## Running the API
+
+**From project root folder**
 
 ```bash
 cd api
@@ -56,6 +61,9 @@ The API loads `seed-data.json` at startup and keeps all data in memory. Payments
 ## Running the Frontend
 
 Open a **second terminal**, leaving the API running in the first:
+
+**From project root folder**
+
 
 ```bash
 cd web
